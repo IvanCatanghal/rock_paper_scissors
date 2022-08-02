@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    function getComputerChoice (choice)
+    {
+        return choice[Math.floor(Math.random()*choice.length)];
+    }
+
+    var choice = ['rock', 'paper', 'scissor'];
+    console.log(getComputerChoice(choice));
+  </script>
+</body>
+</html>
